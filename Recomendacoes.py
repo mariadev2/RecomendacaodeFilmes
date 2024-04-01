@@ -29,14 +29,17 @@ class Recomendacoes:
 
     def main(self):
         print("Escolha as opções:\n"
-                            "[1] - Buscar recomendações:\n"
-                            "[2] - Buscar informações:\n")
+                            "[1] - Buscar recomendações\n"
+                            "[2] - Buscar informações\n"
+                            "[0] - Sair\n")
         menu = (input(int()))
         if menu == '1':
             self.retornando_recomendacao()
         elif menu == '2':
             self.retornando_info()
-
+        elif menu == '0':
+            mensagem = "fechando progrma"
+            return mensagem
 
 # Verifica se o script está sendo executado como programa principal
 if __name__ == "__main__":
