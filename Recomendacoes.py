@@ -38,7 +38,7 @@ class Recomendacoes:
         elif menu == '2':
             self.retornando_info()
         elif menu == '0':
-            mensagem = "fechando progrma"
+            mensagem = "fechando programa"
             return mensagem
 
 # Verifica se o script está sendo executado como programa principal
